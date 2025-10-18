@@ -119,6 +119,3 @@ func sendTicket(userTickets uint, firstName string, lastName string, email strin
 	fmt.Println("#################")
 	wg.Done()
 }
-
-	fmt.Printf("THANK YOU %v %v booked %v tickets. Sent email at %v\n", firstName, lastName, userTickets, email)
-}
